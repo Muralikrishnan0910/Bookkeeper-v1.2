@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BookSet" representedClassName="BookSet" syncable="YES">
+        <attribute name="authorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="completedBook" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cuserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pagesRead" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="totalPages" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="FriendsList" representedClassName="FriendsList" syncable="YES">
+        <attribute name="friendsid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendsname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GrpList" representedClassName="GrpList" syncable="YES">
+        <attribute name="groupid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserName" representedClassName="UserName" syncable="YES">
+        <attribute name="cuserName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BookSet" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="FriendsList" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="GrpList" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="UserName" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
